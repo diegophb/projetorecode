@@ -72,7 +72,7 @@ INSERT INTO Pacote(nome, valorPacote) VALUES ("classe media", 450.25);
 
 
 INSERT INTO reserva (fk_Cliente_IdNome ,fk_Destino_IdDestino ,
-fk_Pacote_IdPacote,dataReserva,Valor ) values (6,13, 4,"25 de Feveiro","339.01");
+fk_Pacote_IdPacote,dataReserva,Valor ) values (1,2,2,"25 de Feveiro","339.01");
 
 select * from reserva ;
 select * from ReservaGeral;
