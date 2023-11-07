@@ -87,7 +87,6 @@
                <input type="hidden" name="id" value="${reserva.id}">
 				<p>
 					<label for="cliente" class="form-label">Cliente:</label>
-					<input type="text" name="nome" value="${reserva.cliente.nome}">
 					<select id="clie" name="cliente" class="form-control" >
 					<option value="DAFAULT"> ${reserva.cliente.nome}</option>
 					 <jstl:forEach items="${listaClientes}" var="cliente">
